@@ -1,15 +1,15 @@
-const logger = require("progress-estimator")();
+// const logger = require("progress-estimator")();
 const youtubedl = require("youtube-dl-exec");
 
 const url = "https://www.youtube.com/watch?v=6xKWiCMKKJg";
-const promise = youtubedl(url, { dumpSingleJson: true });
-async function download() {
-  const result = await logger(promise, `Obtaining ${url}`);
-  return result;
-}
+// const promise = youtubedl(url, { dumpSingleJson: true });
+// async function download() {
+//   const result = await logger(promise, `Obtaining ${url}`);
+//   return result;
+// }
 
-const result = download();
-console.log(result);
+// const result = download();
+// console.log(result);
 
 // downloading the video now using the url obtained from the previous step
 
@@ -32,4 +32,4 @@ async function videoDownload(url1) {
   }
 }
 
-// videoDownload(url1);
+videoDownload(url1);
