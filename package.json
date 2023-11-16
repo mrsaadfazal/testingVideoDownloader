@@ -1,0 +1,17 @@
+{
+  "name": "testingvideodownloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-ytdl-core-v2": "^2.0.0",
+    "progress-estimator": "^0.3.1",
+    "youtube-dl-exec": "^2.4.17",
+    "ytdl-core": "^4.11.5"
+  }
+}
